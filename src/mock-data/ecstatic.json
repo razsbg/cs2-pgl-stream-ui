@@ -1,0 +1,29 @@
+{
+  "Ecstatic": [
+    {
+      "faction": "ct",
+      "name": "Nodios",
+      "isAlive": true,
+      "money": "850",
+      "stats": {
+        "kills": 5,
+        "deaths": 11,
+        "hp": 100,
+        "adr": 95
+      },
+      "inventory": {
+        "firearm": "galil",
+        "sidearm": "usp-s",
+        "grenades": {
+          "he": true,
+          "flashbang": true,
+          "incendiary": false,
+          "smoke": true,
+          "decoy": false
+        },
+        "defuseKit": true,
+        "armor": "full"
+      }
+    }
+  ]
+}
