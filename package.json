@@ -1,0 +1,34 @@
+{
+  "name": "cs2-pgl-stream-ui",
+  "version": "1.0.0",
+  "description": "PGL Copenhagen CS2 2024 major stream UI implemented in React",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srzvan/cs2-pgl-stream-ui.git#master"
+  },
+  "keywords": [
+    "react",
+    "cs2"
+  ],
+  "author": "Răzvan Sbîngu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/srzvan/cs2-pgl-stream-ui/issues"
+  },
+  "homepage": "https://github.com/srzvan/cs2-pgl-stream-ui/tree/master#readme",
+  "devDependencies": {
+    "@types/react": "^18.2.69",
+    "@types/react-dom": "^18.2.22",
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
