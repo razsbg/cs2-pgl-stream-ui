@@ -1,3 +1,21 @@
+:root {
+  --ct-accent: hsla(190, 52%, 46%, 1);
+  --ct-gradient-start: hsla(191, 48%, 34%, 1);
+
+  --t-accent: hsla(37, 98%, 52%, 1);
+  --t-gradient-start: hsla(41, 74%, 43%, 1);
+
+  --gradient-end: hsla(60, 2%, 25%, 1);
+
+  --player-background: hsla(216, 22%, 13%, 1);
+  --ct-text-on-accent: hsla(197, 59%, 20%, 1);
+  --bomb: hsla(36, 77%, 49%, 1);
+  --dead-player-icon: hsla(228, 2%, 54%, 1);
+  --red: hsla(357, 70%, 44%, 1);
+  --light-grey: hsla(0, 0%, 82%, 1);
+  --dark-gray: hsla(213, 9%, 20%, 1);
+}
+
 body {
   background-color: cadetblue;
 }
