@@ -1,4 +1,48 @@
-.card {
-  padding: 1rem;
+.player {
+  margin: 2rem;
+
+  color: white;
+
+  border-radius: 13px;
+  background-color: var(--player-background);
+  overflow: hidden;
+}
+
+.container,
+.accent {
+  padding: .25em 1.5rem .25em;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.name {
+  margin-bottom: .25em;
+}
+
+.stats {
+  letter-spacing: .15em;
+}
+
+.deaths,
+.armor {
+  margin-left: .75em;
+}
+
+.card .stats>*:last-child {
+  display: flex;
+}
+
+.accent {
+  padding-block: 0;
+  color: var(--dark-gray);
+  font-weight: 600;
+  font-size: 1.35rem;
+  letter-spacing: .05em;
   background-color: var(--ct-accent);
 }
